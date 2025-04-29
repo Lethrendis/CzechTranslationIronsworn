@@ -1,12 +1,12 @@
 {
 	"IRONSWORN": {
 		"Ironsworn": "Ironsworn",
-		"IronswornClassic": "Ironsworn (klasický)",
+		"IronswornClassic": "Ironsworn (základní)",
 		"Starforged": "Starforge",
 		"SunderedIsles": "Sundered Isles",
 		"RULESETS": {
 			"Rulesets": "Pravidla",
-			"classic": "Ironsworn (klasický)",
+			"classic": "Ironsworn (základní)",
 			"delve": "Ironsworn: Hlubiny",
 			"starforged": "Starforged",
 			"sundered_isles": "Sundered Isles"
@@ -14,7 +14,7 @@
 		"YourWorldTruths": "Tvá verze světa",
 		"TruthsAreOptional": "Vytváření své verze je volitelný krok. K této části se můžeš vrátit později v nastaveních.",
 		"TruthQuestStarter": "Počáteční úkol:",
-		"QuestStarter": "Počáteční úkolu",
+		"QuestStarter": "Počáteční úkol",
 		"SaveYourTruths": "Ulož svou verzi",
 		"CustomTruth": "Vlastní verze",
 		"RandomizeAll": "Náhodně vše",
@@ -307,7 +307,7 @@
 			"Theme": {
 				"Name": "Vzhled: Motiv",
 				"Hint": "Nastaví motivu hry ovlivňujícího vzhled některých prvků uživatelského rozhraní a výchozí písmo. Vyžaduje znovunačtení.",
-				"Ironsworn": "Ironsworn (klasický))",
+				"Ironsworn": "Ironsworn (základní)",
 				"Starforged": "Starforged",
 				"SunderedIsles": "Sundered Isles (Beta)"
 			},
@@ -337,7 +337,7 @@
 			},
 			"PromptTruths": {
 				"Name": "Dialog nastavení při startu",
-				"Hint": "Otevírá při příštím znovunačtení dialog nastavení."
+				"Hint": "Otevře při příštím znovunačtení dialog nastavení."
 			},
 			"ConfigurationDialog": {
 				"Label": "Dialog nastavení",
@@ -350,11 +350,11 @@
 			},
 			"RollCinderAndWraith": {
 				"Name": "Popel a Přízrak",
-				"Hint": "Házíš kostkami výzvy jako Popelem a Přízrakem. Toto nastavení přepíše barevné téma hodů výzvy v Dice-So-Nice a v nápovědách nástrojů zobrazí, která kostka odpovídá kterému měsíci."
+				"Hint": "Házíš kostkami výzvy jako Popelem a Přízrakem. Toto nastavení přepíše barevné téma hodů výzvy kostek Dice-So-Nice a v nápovědách nástrojů zobrazí, která kostka odpovídá kterému měsíci."
 			},
 			"ProgressMarkAnimation": {
-				"Name": "Povolení animace zaznamenávání pokroku",
-				"Hint": "Přepíná animaci zaznamenávání pokroku. Poznámka: Animace nezamyká tlačítko zaznamenávání, takže je tato volba čistě kosmetická."
+				"Name": "Povolení animace zápisu pokroku",
+				"Hint": "Přepíná animaci zápisu pokroku. Poznámka: Animace nezamyká tlačítko zaznamenávání, takže je tato volba čistě kosmetická."
 			}
 		},
 		"First Start": {
@@ -362,12 +362,12 @@
 			"Intro": "Vyber si, který systém budeš primárně používat. Tím nastavíš výchozí karty posta, tahů a orákula; podrobnější možnosti jsou dostupné v nastavení.",
 			"SheetTitle": "Karta postavy",
 			"SheetHint": "Výběr výchozí karty postavy.",
-			"IronswornSheetTooltip": "Kompaktní rozvržení s minimem záložek, navržené pro klasický Ironsworn a Hlubiny. Obsahuje stupnice pout, ale ne stupnice odkazu.",
+			"IronswornSheetTooltip": "Kompaktní rozvržení s minimem záložek, navržené pro základní Ironsworn a Hlubiny. Obsahuje stupnice pout, ale ne stupnice odkazu.",
 			"StarforgedSheetTooltip": "Záložkové rozvržení, navržené pro Starforged a Sundered Isles. Obsahuje stupnice odkazu a spojení.",
 			"RulesetsTitle": "Sady pravidel",
 			"RulesetsHint": "Vyber, obsah knihy knihy bude v tomto světě aktivní.",
 			"TruthsTitle": "Tvá verze",
-			"TruthsHint": "Spustit dialog pro generování tvé verze prostředí.",
+			"TruthsHint": "Spustit dialog pro generování tvé verze herního světa.",
 			"SettingTruths": "Tvé verze",
 			"SettingTruth": "Tvá verze"
 		},
@@ -568,7 +568,7 @@
 			}
 		},
 		"OracleCategories": {  
-			"Action and Theme Oracles": "Orákula Akce a Motivy",  
+			"Action and Theme Oracles": "Akce a Motivy",  
 			"Other Names": "Jiná jména",  
 			"Place Oracles": "Lokace",  
 			"Settlement Name": "Název osady",  
@@ -605,7 +605,7 @@
 			"Planetside Opportunity": "Příležitost na planetě",  
 			"Planet Oracles": "Planety",  
 			"Precursor Vault Oracles": "Komnaty předků",  
-			"Settlement Oracles": "Osídlení",  
+			"Settlement Oracles": "Osada",  
 			"Space Sighting": "Pozorování ve vesmíru",  
 			"Space Encounter Oracles": "Setkání ve Vesmíru",  
 			"Starship Mission": "Mise hvězdné lodi",  
@@ -618,7 +618,7 @@
 			"Chaotic": "Chaos",  
 			"Character Creation": "Vytváření postavy",  
 			"Character Name": "Jméno postavy",  
-			"Character": "Postava",  
+			"Character": "Postavy",  
 			"Characters": "Postavy",  
 			"Combat Event": "Bojová událost",  
 			"Community": "Komunita",  
@@ -629,7 +629,7 @@
 			"Desert": "Poušť",  
 			"Engineering": "Inženýrství",  
 			"Factions": "Frakce",  
-			"Feature": "Rys",  
+			"Feature": "Charakteristika",  
 			"Fortified": "Opevněné",  
 			"Furnace": "Pec",  
 			"Grave": "Hrob",  
@@ -649,13 +649,13 @@
 			"Mission": "Mise",  
 			"Moves": "Tahy",  
 			"Monstrosity": "Monstrozita",  
-			"Name": "Jméno",  
+			"Name": "Jména",  
 			"Ocean": "Oceán",  
 			"Operations": "Operace",  
 			"Opportunity": "Příležitost",  
 			"Other": "Ostatní",  
 			"Peril": "Nebezpečí",  
-			"Place": "Místo",  
+			"Place": "Instance",  
 			"Planets": "Planety",  
 			"Population": "Populace",  
 			"Production": "Produkce",  
@@ -677,7 +677,7 @@
 			"Tainted": "Zkažené",  
 			"Threat": "Hrozba",  
 			"Trap": "Past",  
-			"Turning Point": "Příběhový zvrat",  
+			"Turning Point": "Příběhové zvraty",  
 			"Type": "Typ",  
 			"Vaults": "Komnaty",  
 			"Vital": "Životně důležité",  
@@ -883,6 +883,7 @@
 			"TypeCharacter": "Postava",
 			"TypeFoe": "NP",
 			"TypeLocation": "Lokace",
+			"TypeShared": "Sdílená karta postavy",
 			"TypeDelveSite": "Instance Hlubin",
 			"TypeStarship": "Hvězdné"
 		},
@@ -926,13 +927,13 @@
 		"JOURNALENTRYPAGE": {
 			"TypeProgressTrack": "Stupnice pokroku",
 			"TypeTruth": "Tvá verze",
-			"TypeTruthClassic": "Tvá verze (klasická)",
+			"TypeTruthClassic": "Tvá verze (základní)",
 			"TypeTruthStarforged": "Tvá verze (Starforged)"
 		},
 		"JOURNALENTRYPAGES": {
 			"TypeProgressTrack": "Stupnice pokroků",
 			"TypeTruth": "Tvé verze",
-			"TypeTruthClassic": "Tvá verze (klasické)",
+			"TypeTruthClassic": "Tvá verze (základní)",
 			"TypeTruthStarforged": "Tvé verze (Starforged)"
 		},
 		"DELVESITE": {
@@ -940,8 +941,8 @@
 			"Dangers": "Nebezpečí",
 			"Denizen": "Obyvatel",
 			"Denizens": "Obyvatelé",
-			"Feature": "Rys",
-			"Features": "Rysy",
+			"Feature": "Charakteristika",
+			"Features": "Charakteristikx",
 			"FREQUENCY": {
 				"VeryCommon": "Velmi častý",
 				"Common": "Běžný",
